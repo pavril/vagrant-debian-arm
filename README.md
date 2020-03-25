@@ -28,18 +28,22 @@ That's it 🎉
 
 This virtual machine is configured so that all files in the `./code` folder are kept in sync between your local machine and the virtual machine. So you can use the code editor of your choice to edit your files on your local machine, and compile and run them on the virtual machine instantly.
 
-### `vagrant up` - start the virtual machine 
+#### Start the virtual machine: `vagrant up`
 
 Open a command line terminal in the directory with the Vagrantfile and run `vagrant up` to boot your virtual machine. This command will only take a few seconds to run after the initial provisioning (step 3).
 
-### `vagrant ssh` - connect to the virtual machine
+#### Connect to the virtual machine: `vagrant ssh`
 
 Once your machine is booted, open a command line terminal and run `vagrant ssh` to connect to the virtual machine through SSH.
 
-### `vagrant halt` - shutdown the virtual machine
+#### Shutdown the virtual machine: `vagrant halt`
 
 When you're done working on your files, you can shut down the vitual machine by running `vagrant halt` from the directory with the Vagrantfile.
 
-### `vagrant destroy` - delete the virtual machine
+#### Delete the virtual machine: `vagrant destroy`
 
 If you wish to delete the virtual machine, run `vagrant destroy` from the directory with the Vagrantfile. This won't delete your files, but you will have to wait for the machine to get provisioned the next time you run `vagrant up`.
+
+## Issues
+
+If you encounter problems during or after installation, please open a new issue on the repository: https://github.com/pavril/vagrant-debian-arm/issues/new. Make sure to provide context (operating system, software versions, ...) and keep it concise.

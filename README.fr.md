@@ -28,19 +28,22 @@ C'est tout 🎉
 
 La machine virtuelle est configurée de manière à ce que tous les fichiers du dossier `./code` soient synchronisés entre votre machine locale et la machine virtuelle. Vous pouvez donc utiliser l'éditeur de code de votre choix pour modifier vos fichiers sur votre machine locale, et les compiler et les exécuter sur la machine virtuelle instantanément.
 
-### `vagrant up` - lancer la machine virtuelle 
+#### Lancer la machine virtuelle : `vagrant up`
 
 Ouvrez une ligne de commande dans le répertoire contenant le fichier Vagrantfile et lancez `vagrant up` pour démarrer votre machine virtuelle. Cette commande ne prendra que quelques secondes à exécuter après le provisionnement initial (étape 3).
 
-### `vagrant ssh` - se connecter à la machine virtuelle
+#### Se connecter à la machine virtuelle : `vagrant ssh`
 
 Une fois la machine virtuelle démarrée, lancez `vagrant ssh` depuis le répertoire contenant le fichier Vagrantfile pour vous connecter à la machine virtuelle via SSH.
 
-### `vagrant halt` - arrêter la machine virtuelle
+#### Arrêter la machine virtuelle : `vagrant halt`
 
 Lorsque vous avez fini de travailler sur vos fichiers, vous pouvez éteindre la machine vitale en exécutant `vagrant halt` depuis le répertoire avec le Vagrantfile.
 
-### `vagrant destroy` - supprimer la machine virtuelle
+#### Supprimer la machine virtuelle : `vagrant destroy`
 
 Si vous souhaitez supprimer la machine virtuelle, lancez `vagrant destroy` depuis le répertoire avec le fichier Vagrant. Cela ne supprimera pas vos fichiers sur lesquelles vous travaillez, mais vous devriez attendre que la machine soit provisionnée de nouveau la prochaine fois que vous lancerez `vagrant up`.
 
+## Problèmes
+
+Si vous rencontrez des problèmes pendant ou après l'installation, merci de l'ajouter sur le dépôt : https://github.com/pavril/vagrant-debian-arm/issues/new. Veuillez essayer de fournir du contexte (système d'exploitation, versions des logiciels, ...) et de rester concis.
