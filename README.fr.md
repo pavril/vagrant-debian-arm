@@ -12,7 +12,7 @@ Vérifiez que vous avez installé les dernières versions de [Vagrant](https://w
 
 Pour les machines 32 bits, installez la dernière version de [VirtualBox 5.2](https://www.virtualbox.org/wiki/Download_Old_Builds_5_2) car le support 32 bits a été abandonné depuis la version 6.x.
 
-## Étapes
+### Étapes
 
 1. Clonez ou téléchargez ce dépôt dans votre machine locale. Vous pouvez le placer où vous voulez.
 

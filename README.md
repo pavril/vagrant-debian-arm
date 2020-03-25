@@ -18,7 +18,7 @@ For 32-bit machines, get the latest [VirtualBox 5.2 build](https://www.virtualbo
 
 2. Get the `opt_gnu_arm_64.tar.bz2` archive and place it in the same directory
 
-3. Opn a command line terminal in the directory with the Vagrantfile and run `vagrant up`.
+3. Open a command line terminal in the directory with the Vagrantfile and run `vagrant up`.
 
 The first time you run this command, expect it to take some time to complete. This process can take from 10 to 30 minutes depending on your internet connection speed and computer. It will download the Debian operating system and then provision it with the ARM development tools.
 
@@ -38,7 +38,7 @@ Once your machine is booted, open a command line terminal and run `vagrant ssh` 
 
 #### Shutdown the virtual machine: `vagrant halt`
 
-When you're done working on your files, you can shut down the vitual machine by running `vagrant halt` from the directory with the Vagrantfile.
+When you're done working on your files, you can shut down the virtual machine by running `vagrant halt` from the directory with the Vagrantfile.
 
 #### Delete the virtual machine: `vagrant destroy`
 
