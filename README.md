@@ -46,4 +46,4 @@ If you wish to delete the virtual machine, run `vagrant destroy` from the direct
 
 ## Issues
 
-If you encounter problems during or after installation, please open a new issue on the repository: https://github.com/pavril/vagrant-debian-arm/issues/new. Make sure to provide context (operating system, software versions, ...) and keep it concise.
+If you encounter problems during or after installation, please open a [new issue](https://github.com/pavril/vagrant-debian-arm/issues/new?assignees=&labels=bug&template=bug_report.md) on the repository. Make sure to provide context (operating system, software versions, ...) and keep it concise.
