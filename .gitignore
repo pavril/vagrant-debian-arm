@@ -1,2 +1,3 @@
-.vagrant
+.vagrant/
 opt_gnu_arm_64.tar.bz2
+!code/
