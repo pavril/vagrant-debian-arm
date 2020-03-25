@@ -46,4 +46,4 @@ Si vous souhaitez supprimer la machine virtuelle, lancez `vagrant destroy` depui
 
 ## Problèmes
 
-Si vous rencontrez des problèmes pendant ou après l'installation, merci de l'ajouter sur le dépôt : https://github.com/pavril/vagrant-debian-arm/issues/new. Veuillez essayer de fournir du contexte (système d'exploitation, versions des logiciels, ...) et de rester concis.
+Si vous rencontrez des problèmes pendant ou après l'installation, merci de l'[ajouter sur le dépôt](https://github.com/pavril/vagrant-debian-arm/issues/new?assignees=&labels=bug&template=bug_report.md). Veuillez essayer de fournir du contexte (système d'exploitation, versions des logiciels, ...) et de rester concis.
